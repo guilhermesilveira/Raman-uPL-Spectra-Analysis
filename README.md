@@ -8,7 +8,7 @@ The sample used for our experiment involve two confinement:
 Ramana and photoluminescence will provide us informations about the nanobeam.
 
 
-### Micro-Photoluminescence
+#### Micro-Photoluminescence
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/PL.png" width=300>
 
 
@@ -23,10 +23,13 @@ Ramana and photoluminescence will provide us informations about the nanobeam.
 
 &nbsp;
 
-### Raman spectroscopy
+#### Raman spectroscopy
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/Raman.png" width=300>
 Three different modes are visibles on the Raman spectra, one corrsepond to silicon and the other two are GaN
 spectrum analysis with lorentzian fit
+
+
+&nbsp;
 
 
 &nbsp;
