@@ -1,14 +1,10 @@
 # Raman-μPL-Spectra-Analysis
 Raman and Micro-Photoluminescence (μPL) spectroscopy are powerful characterization technique providing many useful informations on the sample, they are non-destructives and have spatial resolution around 100nm, which makes them widely used in nanoscience. This repository contains the source code to analyze raw measurements performed by Raman and μPL spectroscopy.
 
-## Characterized sample
+## Characterized samples
 <img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/nb.png" width=400>
 
-The sample used for our experiment involve two confinement:
-- light confinement with a one dimensional photonic cristal
-- electron confinement with a quantum well
-
-Theses two confinement can be coupled together to create a Quantum Electro Dynamic system, Our goal is to have a better understanding of both of these by performing space and time dependent measurement.
+The samples used in the experiments are "nanobeam", it consist of a one dimensional photonic cristal for photons confinement and a quantum well for electrons confinement. Theses two can be coupled together to create a Quantum Electro Dynamic system, Our goal is to have a better understanding of the physical phenomenons involved in nanobeams by performing space and time dependent measurement.
 
 
 ### Micro-Photoluminescence
