@@ -4,7 +4,7 @@ Raman and Micro-Photoluminescence (μPL) spectroscopy are powerful characterizat
 ## Characterized samples
 <img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/nb.png" width=400>
 
-The samples used in the experiments are "nanobeam", it consist of a one dimensional photonic cristal for photons confinement and a quantum well for electrons confinement. which can be coupled together to create a Quantum Electro Dynamic system, Our goal is to have a better understanding of the physical phenomenons involved in nanobeams by performing space and time dependent measurement.
+The samples used in the experiments are "nanobeam", it consist of a one dimensional photonic cristal for photons confinement and a quantum well for electrons confinement, which can be coupled together to create a Quantum Electro Dynamic system, Our goal is to have a better understanding of the physical phenomenons involved in nanobeams by performing space and time dependent measurement.
 
 
 ### Micro-Photoluminescence
