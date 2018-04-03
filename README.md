@@ -7,7 +7,7 @@ The sample used for our experiment involve two confinement:
 - light confinement with a one dimensional photonic cristal
 - electron confinement with a quantum well
 
-Raman and photoluminescence will provide us informations about the nanobeam.
+Theses two confinement can be coupled together to create a Quantum Electro Dynamic system, Our goal is to have a better understanding of both of these by performing space and time dependent measurement.
 
 
 ### Micro-Photoluminescence
