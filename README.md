@@ -5,6 +5,7 @@ Raman and Micro-Photoluminescence (μPL) spectroscopy are powerful characterizat
 ## Micro-Photoluminescence
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/PL.png" width=300>
 
+The microPL spectrum provide information about the Quantum well (gaussian) and the photonic crystal (lorentzian)
 Spectrum analysis with lorentzian and gaussian fit 
 time evolution of QW and PhC mode
   
