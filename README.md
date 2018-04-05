@@ -11,10 +11,8 @@ The samples used in the experiments are "nanobeam", it consist of a one dimensio
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/PL.png" width=300>
 
 
-μPL measurements provide information about the optical and electronic properties of the material. Particularly, The observed gaussian on the spectrum refers to the light emission of the quantum well, and the 4 lorentzian indicates the different confinement modes of the photonic cristal.
-  
+μPL measurements provide information about the optical and electronic properties of the material. Particularly, The background light is from the Quatum well emission and can be fitted with a Gaussian. The 4 observed peaks refers to the different confinement mode of the photonic cristal. By anylizing both the position and the quality factor of these curve, we can extract informations about the quality and the strain state of the nanobeam
 
-&nbsp;
 
 
 &nbsp;
