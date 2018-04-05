@@ -23,7 +23,7 @@ The samples used in our experiments are "nanobeam", it consist of a one dimensio
 ### Raman spectroscopy
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/Raman.png" width=300>
 Three different modes are visibles on the Raman spectra, one corrsepond to silicon and the other two are GaN
-spectrum analysis with lorentzian fit. By anylizing both the position and the quality factor of these curve, we can extract informations about the strain state of the nanobeam. The code for this curve can be found at  `src/Raman/single`.
+spectrum analysis with lorentzian fit. By anylizing both the position and the quality factor of these curve, we can extract informations about the strain state of the nanobeam. The code for this curve can be found at `src/Raman/single`.
 
 
 &nbsp;
