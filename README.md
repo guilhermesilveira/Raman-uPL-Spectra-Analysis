@@ -43,7 +43,7 @@ spectrum analysis with lorentzian fit. By anylizing both the position and the qu
 
 ## Measurements & Results
 
-#### Time dependant microPL
+#### Time dependant μPL
 
 Spectrum analysis with lorentzian and gaussian fit 
 time evolution of QW and PhC mode
