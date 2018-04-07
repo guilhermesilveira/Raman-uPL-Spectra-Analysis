@@ -48,7 +48,7 @@ Spectrum analysis with lorentzian and gaussian fit
 time evolution of QW and PhC mode
 
 #### Raman mapping
-Raman maesurement has been performed at different position on the nanobeam
+Raman maesurement has been performed at different position on the nanobeam.
 mapping of raman shift
 spectrum analysis with lorentzian fit
 
