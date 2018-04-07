@@ -43,6 +43,7 @@ spectrum analysis with lorentzian fit. By anylizing both the position and the qu
 
 #### Time dependant μPL
 
+We have performed time dependent μPL analysis while changing the potential to see how the nanobeam isa affected by a change in the external electric field.
 Spectrum analysis with lorentzian and gaussian fit 
 time evolution of QW and PhC mode
 
