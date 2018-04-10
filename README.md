@@ -50,6 +50,8 @@ Raman maesurement has been performed at different position on the nanobeam. Each
 mapping of raman shift
 spectrum analysis with lorentzian fit
 
+<img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/mapping.png" width=400>
+
 
 ## Report
 For more details about the methods used in our measurements, or more detailed results, you can check the report, available in the `report/` folder.
