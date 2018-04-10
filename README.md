@@ -19,9 +19,10 @@ The samples used in our experiments are "nanobeam", it consist of a one dimensio
 
 ### Raman spectroscopy
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/Raman.png" width=300>
-Raman spectroscopy indicate the strain state of the measured sample. The shidt in the spectrum is linear with th deformation.
-Three different modes are visibles on the Raman spectra, one corrsepond to silicon and the other two are GaN
-spectrum analysis with lorentzian fit. By anylizing both the position and the quality factor of these curve, we can extract informations about the strain state of the nanobeam. The code for this sample curve can be found in the folder `src/Raman/sample-spectrum`.
+Three different modes are visibles on the Raman spectra, one corrsepond to silicon and the other two are GaN. The three peaks can be fitted with a Lorentzian, and by anylizing both the position and the quality factor of these curve, we can extract informations about the strain state of the nanobeam. The code for this sample curve can be found in the folder `src/Raman/sample-spectrum`.
+
+The shift in the spectrum  being inear with the deformation, Raman spectroscopy indicate the strain state of the measured sample.
+spectrum analysis with lorentzian fit. By anylizing both the position and the quality factor of these curve, we can extract informations about the strain state of the nanobeam. 
 
 
 &nbsp;
