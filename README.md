@@ -49,7 +49,7 @@ Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` fol
 
 ## Measurements & Results
 
-#### Time dependant μPL
+### Time dependant μPL
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/time.png" width=250>
 
 We have performed time dependent μPL analysis while changing the potential to see how the nanobeam is affected by a change in the external electric field.
@@ -66,7 +66,7 @@ time evolution of QW and PhC mode
 &nbsp;
 
 
-#### Raman mapping
+### Raman mapping
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/mapping.png" width=250>
 
 Raman maesurement has been performed at different position on the nanobeam. Each spectra are then fited with 3 lorentzian to extract the position of the modes.
