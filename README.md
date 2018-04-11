@@ -46,6 +46,19 @@ We have performed time dependent μPL analysis while changing the potential to s
 Spectrum analysis with lorentzian and gaussian fit 
 time evolution of QW and PhC mode
 
+
+&nbsp;
+
+
+&nbsp;
+
+
+&nbsp;
+
+
+&nbsp;
+
+
 #### Raman mapping
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/mapping.png" width=250>
 
