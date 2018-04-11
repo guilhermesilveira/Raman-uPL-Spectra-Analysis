@@ -34,13 +34,14 @@ Three different modes are visibles on the Raman spectra, one corrsepond to silic
 
 
 ## The code
-The code takes spectra in input, fit the data with Lorentzian or Gaussian curves depending on the situation, and then return the position and the quality factor of the peaks in the spectra. The results are then plotted as a function of time or position to check the evolution of the data. The code is available in the `src` folder and require at least `Python 3.7`. The code proceed as follow:
+The code is available in the `src` folder and require at least `Python 3.7`, it proceed as follow:
 
 - Fit the spectra with two lorentzian
 - Substract the dataset with the computed lorentzian
 - The background is fitted with a gaussian
 
-Every time a fit is performed, the curve is ploted in the `DEBUGFILE` folder so we can check easily if the fit has been correctly performed by looking into this folder.
+Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into this folder. The code return the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. 
+
 
 
 ## Measurements & Results
