@@ -1,15 +1,6 @@
 # Raman-μPL-Spectra-Analysis
 Raman and Micro-Photoluminescence (μPL) spectroscopy are powerful characterization technique providing many useful informations on the sample, they are non-destructives and have a spatial resolution around 100nm, which makes them widely used in nanoscience. This repository contains the source code to analyze raw measurements performed by Raman and μPL spectroscopy.
 
-## The code
-The code takes spectra in input, fit the data with Lorentzian or Gaussian curves depending on the situation, and then return the position and the quality factor of the peaks in the spectra. The results are then plotted as a function of time or position to check the evolution of the data. The code is available in the `src` folder and require at least `Python 3.7`. The code proceed as follow:
-
-- Fit the spectra with two lorentzian
-- Substract the dataset with the computed lorentzian
-- The background is fitted with a gaussian
-
-Every time a fit is performed, the curve is ploted in the `DEBUGFILE` folder so we can check easily if the fit has been correctly performed by looking into this folder.
-
 
 ## Characterized samples
 <img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/nb.png" width=400>
@@ -41,6 +32,15 @@ Three different modes are visibles on the Raman spectra, one corrsepond to silic
 
 &nbsp;
 
+
+## The code
+The code takes spectra in input, fit the data with Lorentzian or Gaussian curves depending on the situation, and then return the position and the quality factor of the peaks in the spectra. The results are then plotted as a function of time or position to check the evolution of the data. The code is available in the `src` folder and require at least `Python 3.7`. The code proceed as follow:
+
+- Fit the spectra with two lorentzian
+- Substract the dataset with the computed lorentzian
+- The background is fitted with a gaussian
+
+Every time a fit is performed, the curve is ploted in the `DEBUGFILE` folder so we can check easily if the fit has been correctly performed by looking into this folder.
 
 
 ## Measurements & Results
