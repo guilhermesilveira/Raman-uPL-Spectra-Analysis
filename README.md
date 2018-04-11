@@ -3,8 +3,6 @@ Raman and Micro-Photoluminescence (μPL) spectroscopy are powerful characterizat
 
 
 
-&nbsp;
-
 ## Characterized samples
 <img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/nb.png" width=400>
 
