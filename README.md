@@ -1,6 +1,10 @@
 # Raman-μPL-Spectra-Analysis
 Raman and Micro-Photoluminescence (μPL) spectroscopy are powerful characterization technique providing many useful informations on the sample, they are non-destructives and have a spatial resolution around 100nm, which makes them widely used in nanoscience. This repository contains the source code to analyze raw measurements performed by Raman and μPL spectroscopy.
 
+## The code
+The code takes spectra in input, fit the data with Lorentzian or Gaussian curves depending on the situation, and then return the position and the quality factor of the peaks in the spectra. The results are then plotted as a function of time or position to check the evolution of the data. The code is available in the `src` folder and require at least `Python 3.7`.
+
+
 ## Characterized samples
 <img align="right" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/nb.png" width=400>
 
@@ -31,11 +35,6 @@ Three different modes are visibles on the Raman spectra, one corrsepond to silic
 &nbsp;
 
 
-&nbsp;
-
-
-&nbsp;
-
 
 ## Measurements & Results
 
@@ -46,9 +45,25 @@ Spectrum analysis with lorentzian and gaussian fit
 time evolution of QW and PhC mode
 
 #### Raman mapping
+<img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/mapping.png" width=250>
+
 Raman maesurement has been performed at different position on the nanobeam. Each spectra are then fited with 3 lorentzian to extract the position of the modes.
 mapping of raman shift
 spectrum analysis with lorentzian fit
+
+
+&nbsp;
+
+
+&nbsp;
+
+
+&nbsp;
+
+
+&nbsp;
+
+
 
 
 ## Report
