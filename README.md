@@ -35,7 +35,7 @@ Three different modes are visibles on the Raman spectra, one corrsepond to silic
 
 
 ## The code
-The code is available in the `src` folder and require at least `Python 3.7`, it proceed as follow:
+The code is available in the `src` folder and require at least `Python 3.4`, it proceed as follow:
 
 - Fit the spectra with two lorentzian
 - Substract the dataset with the computed lorentzian
