@@ -52,12 +52,7 @@ Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` fol
 ### Time dependant μPL
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/time.png" width=250>
 
-We have performed time dependent μPL analysis while changing the potential to see how the nanobeam is affected by a change in the external electric field.
-Spectrum analysis with lorentzian and gaussian fit 
-time evolution of QW and PhC mode
-
-
-&nbsp;
+We have performed time dependent μPL analysis while changing the potential to see how the nanobeam is affected by a change in the external electric field. The μPL spectrum is measured at different time and the position of the peaks are exctracted thanks to Lorentzian and Gaussian fitting. The time evolution of the Quantum well and photonic cristal modes is plotted on the left.
 
 
 &nbsp;
