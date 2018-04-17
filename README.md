@@ -35,15 +35,15 @@ Three different modes are visibles on the Raman spectra, one corrsepond to silic
 
 
 ## The code
-The code is available in the `src` folder and require at least `Python 3.4`, it proceed as follow:
+The code is available in the `src` folder and require at least `Python 3.4`. For Raman spectra, the curve are simply fitted with a Lorentzian, but for the μPL, it proceed as follow:
 
-- Fit the spectra with two lorentzian
-- Substract the dataset with the computed lorentzian
-- The background is fitted with a gaussian
+- Fit the backgroung of the spectrum with a Gaussian by removing the points in the resonance peaks area
+- Substract the dataset with the computed Gaussian
+- Fit the two remaining peaks with a Lorentzian
 
-Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into this folder. The code return the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. 
+Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into the folder. The code return the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. 
 
-
+<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/graph.png" width=700>
 
 &nbsp;
 
