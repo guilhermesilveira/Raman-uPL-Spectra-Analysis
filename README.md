@@ -43,7 +43,7 @@ The code is available in the `src` folder and require at least `Python 3.4`. For
 
 Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into the folder. The code return the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. 
 
-<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/graph.png" width=700>
+<img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/graph.png" width=900>
 
 &nbsp;
 
