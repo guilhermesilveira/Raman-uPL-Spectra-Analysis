@@ -64,9 +64,7 @@ We have performed time dependent μPL analysis while changing the potential to s
 ### Raman mapping
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/mapping.png" width=250>
 
-Raman maesurement has been performed at different position on the nanobeam. Each spectra are then fited with 3 lorentzian to extract the position of the modes.
-mapping of raman shift
-spectrum analysis with lorentzian fit. The code for theses measurement is available in `src/Raman`.
+Raman maesurement has been performed at different position on the nanobeam. Each spectra are then fited with 3 lorentzian to extract the position of the modes. The peaks positions are then plotted on a 2D map to easily check if some patern are visible. The map clearly indicate that the strain state is not the same in the nanobeam and in the PADs. The code for theses measurement is available in `src/Raman`.
 
 
 &nbsp;
@@ -80,8 +78,6 @@ spectrum analysis with lorentzian fit. The code for theses measurement is availa
 
 &nbsp;
 
-
-&nbsp;
 
 
 ## Report
