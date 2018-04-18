@@ -35,7 +35,7 @@ Three different modes are visibles on the Raman spectra, one corrsepond to silic
 
 
 ## The code
-The code is available in the `src` folder and require at least `Python 3.4`. For Raman spectra, the curve are simply fitted with a Lorentzian, but for the μPL, it proceed as follow:
+The code is available in the `src` folder and require at least `Python 3.4`. For Raman data, the spectra are simply fitted with a Lorentzian, but for the μPL, it proceed as follow:
 
 - Fit the backgroung of the spectrum with a Gaussian by removing the points in the resonance peaks area
 - Substract the dataset with the computed Gaussian
