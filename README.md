@@ -58,8 +58,6 @@ We have performed time dependent μPL analysis while changing the potential to s
 &nbsp;
 
 
-&nbsp;
-
 
 ### Raman mapping
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/mapping.png" width=250>
