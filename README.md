@@ -35,7 +35,7 @@ Three different modes are visibles on the Raman spectra, one corrsepond to silic
 
 
 ## The code
-The code is available in the `src` folder and requires `Python 2.7`.The code return the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. For Raman data, the spectra are simply fitted with a Lorentzian, but for the μPL, it proceed as follow:
+The code is available in the `src` folder and requires `Python 2.7`. It returns the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. For Raman data, the spectra are simply fitted with a Lorentzian, but for the μPL, it proceed as follow:
 
 - Fit the backgroung of the spectrum with a Gaussian by removing the points in the resonance peaks area
 - Substract the dataset with the computed Gaussian
