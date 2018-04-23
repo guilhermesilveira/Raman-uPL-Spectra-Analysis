@@ -43,6 +43,27 @@ The code is available in the `src` folder and requires `Python 2.7`. For Raman d
 
 Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into the folder. The code return the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. 
 
+```python
+  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 445.54 nm
+  Fitting data Lorrentz1: 2.7e+03 1/s     Peak energy: 445.51 nm
+  Fitting data Lorrentz2: 2.1e+03 1/s     Peak energy: 455.11 nm
+  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 444.19 nm
+  Fitting data Lorrentz1: 4.0e+03 1/s     Peak energy: 445.27 nm
+  Fitting data Lorrentz2: 3.0e+03 1/s     Peak energy: 455.00 nm
+  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 442.02 nm
+  Fitting data Lorrentz1: 3.5e+03 1/s     Peak energy: 445.30 nm
+  Fitting data Lorrentz2: 2.3e+03 1/s     Peak energy: 455.02 nm
+  Fitting data Gaussian: 1.2e+03 1/s      Peak energy: 444.44 nm
+  Fitting data Lorrentz1: 5.0e+03 1/s     Peak energy: 445.43 nm
+  Fitting data Lorrentz2: 5.2e+03 1/s     Peak energy: 455.09 nm
+  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 445.68 nm
+  Fitting data Lorrentz1: 2.2e+03 1/s     Peak energy: 445.53 nm
+  Fitting data Lorrentz2: 2.2e+03 1/s     Peak energy: 455.12 nm
+  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 444.34 nm
+  Fitting data Lorrentz1: 3.4e+03 1/s     Peak energy: 445.53 nm
+  Fitting data Lorrentz2: 1.9e+03 1/s     Peak energy: 455.14 nm
+```
+
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/graph.png" width=900>
 
 &nbsp;
