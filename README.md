@@ -58,13 +58,11 @@ We have performed time dependent μPL analysis while changing the potential to s
 &nbsp;
 
 
-&nbsp;
-
 
 ### Raman mapping
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/mapping.png" width=250>
 
-Raman maesurement has been performed at different position on the nanobeam. Each spectra are fitted with 3 lorentzian to extract the position of the modes and the peaks positions are then plotted on a 2D map to easily check if some patern are visible. The map clearly indicate that the strain state is not the same in the nanobeam and in the PADs. The code for theses measurement is available in `src/Raman`.
+Raman maesurement has been performed at different position on the nanobeam. Each spectra are fitted with 3 lorentzian to extract the position of the modes and the peaks positions are then plotted on a 2D map to easily check if some patern are visible. The map clearly highlight a difference between the nanobeam and the PADs, which indicates a different strain state. The code for theses measurement is available in `src/Raman`.
 
 
 &nbsp;
