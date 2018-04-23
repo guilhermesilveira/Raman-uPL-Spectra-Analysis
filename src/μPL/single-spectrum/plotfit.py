@@ -82,8 +82,8 @@ def FitLorrentz1(x, y, xmin=445, xmax=447, DEBUGFILE=False):
 	a0 		= np.max(y)
 	imx 	= np.argmax(y)
 	x0 		= x[imx]
-	ilo 	= imx - 0.5 
-	ihi 	= imx + 0.5
+	ilo 	= imx - 1 
+	ihi 	= imx + 1
 	#Estimate the FWHM 
 	while ilo > 1 and y[ilo] > 0.5*a0:
 		ilo 	= ilo - 1
@@ -140,8 +140,8 @@ def FitLorrentz2(x, y, xmin=453.5, xmax=456.5, DEBUGFILE=False):
 	a0 		= np.max(y)
 	imx 	= np.argmax(y)
 	x0 		= x[imx]
-	ilo 	= imx - 0.5 
-	ihi 	= imx + 0.5
+	ilo 	= imx - 1 
+	ihi 	= imx + 1
 	#Estimate the FWHM 
 	while ilo > 1 and y[ilo] > 0.5*a0:
 		ilo 	= ilo - 1
@@ -198,8 +198,8 @@ def FitLorrentz3(x, y, xmin=461, xmax=463, DEBUGFILE=False):
 	a0 		= np.max(y)
 	imx 	= np.argmax(y)
 	x0 		= x[imx]
-	ilo 	= imx - 0.5 
-	ihi 	= imx + 0.5
+	ilo 	= imx - 1 
+	ihi 	= imx + 1
 	#Estimate the FWHM 
 	while ilo > 1 and y[ilo] > 0.5*a0:
 		ilo 	= ilo - 1
@@ -256,8 +256,8 @@ def FitLorrentz4(x, y, xmin=467, xmax=469, DEBUGFILE=False):
 	a0 		= np.max(y)
 	imx 	= np.argmax(y)
 	x0 		= x[imx]
-	ilo 	= imx - 0.5 
-	ihi 	= imx + 0.5
+	ilo 	= imx - 1 
+	ihi 	= imx + 1
 	#Estimate the FWHM 
 	while ilo > 1 and y[ilo] > 0.5*a0:
 		ilo 	= ilo - 1
