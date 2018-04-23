@@ -53,15 +53,6 @@ To launch the data analysis, just run `Fit.py`, which will fit all the spectrum 
   Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 442.02 nm
   Fitting data Lorrentz1: 3.5e+03 1/s     Peak energy: 445.30 nm
   Fitting data Lorrentz2: 2.3e+03 1/s     Peak energy: 455.02 nm
-  Fitting data Gaussian: 1.2e+03 1/s      Peak energy: 444.44 nm
-  Fitting data Lorrentz1: 5.0e+03 1/s     Peak energy: 445.43 nm
-  Fitting data Lorrentz2: 5.2e+03 1/s     Peak energy: 455.09 nm
-  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 445.68 nm
-  Fitting data Lorrentz1: 2.2e+03 1/s     Peak energy: 445.53 nm
-  Fitting data Lorrentz2: 2.2e+03 1/s     Peak energy: 455.12 nm
-  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 444.34 nm
-  Fitting data Lorrentz1: 3.4e+03 1/s     Peak energy: 445.53 nm
-  Fitting data Lorrentz2: 1.9e+03 1/s     Peak energy: 455.14 nm
 ```
 
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/graph.png" width=900>
