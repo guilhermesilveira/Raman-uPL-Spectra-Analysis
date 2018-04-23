@@ -35,13 +35,13 @@ Three different modes are visibles on the Raman spectra, one corrsepond to silic
 
 
 ## The code
-The code is available in the `src` folder and requires `Python 2.7`. For Raman data, the spectra are simply fitted with a Lorentzian, but for the μPL, it proceed as follow:
+The code is available in the `src` folder and requires `Python 2.7`. It returns the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. For Raman data, the spectra are simply fitted with a Lorentzian, but for the μPL, it proceed as follow:
 
 - Fit the backgroung of the spectrum with a Gaussian by removing the points in the resonance peaks area
 - Substract the dataset with the computed Gaussian
 - Fit the two remaining peaks with a Lorentzian
 
-Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into the folder. The code return the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. 
+To launch the data analysis, just run `Fit.py`, which will fit all the spectrum and write the result into a `fitresult.csv` file, then run `plot.py` to obtain the final graph. Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into the folder.
 
 ```python
   Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 445.54 nm
@@ -53,15 +53,6 @@ Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` fol
   Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 442.02 nm
   Fitting data Lorrentz1: 3.5e+03 1/s     Peak energy: 445.30 nm
   Fitting data Lorrentz2: 2.3e+03 1/s     Peak energy: 455.02 nm
-  Fitting data Gaussian: 1.2e+03 1/s      Peak energy: 444.44 nm
-  Fitting data Lorrentz1: 5.0e+03 1/s     Peak energy: 445.43 nm
-  Fitting data Lorrentz2: 5.2e+03 1/s     Peak energy: 455.09 nm
-  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 445.68 nm
-  Fitting data Lorrentz1: 2.2e+03 1/s     Peak energy: 445.53 nm
-  Fitting data Lorrentz2: 2.2e+03 1/s     Peak energy: 455.12 nm
-  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 444.34 nm
-  Fitting data Lorrentz1: 3.4e+03 1/s     Peak energy: 445.53 nm
-  Fitting data Lorrentz2: 1.9e+03 1/s     Peak energy: 455.14 nm
 ```
 
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/graph.png" width=900>
