@@ -41,7 +41,7 @@ The code is available in the `src` folder and requires `Python 2.7`. For Raman d
 - Substract the dataset with the computed Gaussian
 - Fit the two remaining peaks with a Lorentzian
 
-Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into the folder. The code return the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. 
+To launch the data analysis, just run `Fit.py`, which will fit all the spectrum and write the result into a `fitresult.csv` file, then run `plot.py` to obtain the final graph. Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into the folder. The code return the position and the quality factor of the peaks in the spectra and the results are then plotted as a function of time or position to check the evolution of the data. 
 
 ```python
   Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 445.54 nm
