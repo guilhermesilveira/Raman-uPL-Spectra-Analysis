@@ -52,7 +52,7 @@ Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` fol
 ### Time dependant μPL
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/time.png" width=250>
 
-We have performed time dependent μPL analysis while changing the potential to see how the nanobeam is affected by a change in the external electric field. The μPL spectrum is measured at different time and the position of the peaks are exctracted thanks to Lorentzian and Gaussian fitting. The time evolution of the first and second mode of the photonic cristal is plotted on the right, and the graph indicate a small change in the wavelength when we go from 200V to -200V. The code for theses measurement is available in `src/uPL`.
+We have performed time dependent μPL analysis while changing the potential to see how the nanobeam is affected by a change in the external electric field. The μPL spectrum is measured at different time and the position of the peaks are exctracted thanks to Lorentzian and Gaussian fitting. The time evolution of the first and second mode of the photonic cristal is plotted on the right, and the graph indicate a small change in the wavelength when we go from 200V to -200V. The code for theses measurement is available in `src/uPL/Time_plot`.
 
 
 &nbsp;
@@ -62,7 +62,7 @@ We have performed time dependent μPL analysis while changing the potential to s
 ### Raman mapping
 <img align="left" src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/mapping.png" width=250>
 
-Raman maesurement has been performed at different position on the nanobeam. Each spectra are fitted with 3 lorentzian to extract the position of the modes and the peaks positions are then plotted on a 2D map to easily check if some patern are visible. The map clearly highlight a difference between the nanobeam and the PADs, which indicates a different strain state. The code for theses measurement is available in `src/Raman`.
+Raman maesurement has been performed at different position on the nanobeam. Each spectra are fitted with 3 lorentzian to extract the position of the modes and the peaks positions are then plotted on a 2D map to easily check if some patern are visible. The map clearly highlight a difference between the nanobeam and the PADs, which indicates a different strain state. The code for theses measurement is available in `src/Raman/mapping_xy`.
 
 
 &nbsp;
