@@ -44,15 +44,15 @@ The code is available in the `src` folder and requires `Python 2.7`. It returns 
 To launch the data analysis, just run `Fit.py`, which will fit all the spectrum and write the result into a `fitresult.csv` file, then run `plot.py` to obtain the final graph. Every time a fit is performed, the fitted curve is ploted in the `DEBUGFILE` folder so one can check easily if the fit has been correctly performed by looking into the folder.
 
 ```python
-  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 445.54 nm
-  Fitting data Lorrentz1: 2.7e+03 1/s     Peak energy: 445.51 nm
-  Fitting data Lorrentz2: 2.1e+03 1/s     Peak energy: 455.11 nm
-  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 444.19 nm
-  Fitting data Lorrentz1: 4.0e+03 1/s     Peak energy: 445.27 nm
-  Fitting data Lorrentz2: 3.0e+03 1/s     Peak energy: 455.00 nm
-  Fitting data Gaussian: 1.0e+03 1/s      Peak energy: 442.02 nm
-  Fitting data Lorrentz1: 3.5e+03 1/s     Peak energy: 445.30 nm
-  Fitting data Lorrentz2: 2.3e+03 1/s     Peak energy: 455.02 nm
+  Fitting data Gaussian:   1.0e+03 s-1     Peak energy: 445.54 nm
+  Fitting data Lorrentz1:  2.7e+03 s-1     Peak energy: 445.51 nm
+  Fitting data Lorrentz2:  2.1e+03 s-1     Peak energy: 455.11 nm
+  Fitting data Gaussian:   1.0e+03 s-1     Peak energy: 444.19 nm
+  Fitting data Lorrentz1:  4.0e+03 s-1     Peak energy: 445.27 nm
+  Fitting data Lorrentz2:  3.0e+03 s-1     Peak energy: 455.00 nm
+  Fitting data Gaussian:   1.0e+03 s-1     Peak energy: 442.02 nm
+  Fitting data Lorrentz1:  3.5e+03 s-1     Peak energy: 445.30 nm
+  Fitting data Lorrentz2:  2.3e+03 s-1     Peak energy: 455.02 nm
 ```
 
 <img src="https://raw.githubusercontent.com/Aurelien-Pelissier/Raman-uPL-Spectra-Analysis/master/img/graph.png" width=900>
