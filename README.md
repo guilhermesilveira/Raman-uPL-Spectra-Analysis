@@ -91,4 +91,4 @@ Raman measurements has been performed at different positions on the nanobeam. Ea
 
 
 ## Report
-For more details about the methods used in our measurements, or more detailed results, you can check the report, available in the `report/` folder.
+For more details about the methods used in our measurements, references, or more detailed results, you can check the report, available in the `report/` folder.
